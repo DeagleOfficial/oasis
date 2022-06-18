@@ -1,5 +1,5 @@
 # Oasis
-Oasis is a Jounraling Web Application built on the MERN stack.
+Oasis is a Journaling Web Application built on the MERN stack.
 
 ### Install dependencies for client
 cd client ---> `npm install`
