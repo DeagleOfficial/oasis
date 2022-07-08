@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.Navbar {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: rgba(43, 43, 43); */
+    color: black;
+    /* color: rgb(96, 197, 255); */
+    height: 70px;
+}
+
+.NavTitle {
+    text-decoration: none;
+    color: black;
+}
+
+.Titletext {
+    margin-left: 30px;
+    font-weight: lighter;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.NavRouters {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+.routes {
+    margin: 0px 17px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.routes:hover {
+    text-decoration: underline;
+}
+
+.NavBtns {
+    display: flex;
+    flex-direction: row;
+}
+
+.CreateNote {
+    background-color: rgb(0, 140, 255);
+    /* background-color: rgb(96, 197, 255); */
+    /* height: 30px; */
+    /* width: 90px; */
+    /* margin-right: 20px; */
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.4s;
+    width: auto;
+    margin: 10px;
+}
+
+.DelAccountBtn {
+    /* width: 130px; */
+    background-color: rgb(255, 62, 62);
+    width: auto;
+}
